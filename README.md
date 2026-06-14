@@ -5,7 +5,6 @@ PRICE PREDICTION OF DIAMONDS: REGRESSION
 2. LOADING DATA
 3. DATA PREPROCESSING
 4. MODEL BUILDING
-5. FIN
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Loading Data**
 
