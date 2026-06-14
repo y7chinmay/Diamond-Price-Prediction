@@ -6,10 +6,11 @@ PRICE PREDICTION OF DIAMONDS: REGRESSION
 3. DATA PREPROCESSING
 4. MODEL BUILDING
 5. FIN
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**Loading Data**
 
-Loading Data
 This classic dataset contains the prices and other attributes of almost 54,000 diamonds. There are 10 attributes included in the dataset including the target ie. price.
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Feature description:
 
 price price in US dollars (326--18,823)This is the target column containing tags for the features. 
@@ -38,15 +39,15 @@ The depth of the diamond is its height (in millimetres) measured from the culet 
 **table width of the top of the diamond relative to widest point (43--95)**
 
 A diamond's table refers to the flat facet of the diamond seen when the stone is face up. The main purpose of a diamond table is to refract entering light rays and allow reflected light rays from within the diamond to meet the observer’s eye. The ideal table cut diamond will give the diamond stunning fire and brilliance.
-
-Data Preprocessing
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**Data Preprocessing**
 Steps involved in Data Preprocessing
 
-Data cleaning
+**Data cleaning**
 Identifying and removing outliers
 Encoding categorical variables
-
-Model Building
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**Model Building**
 Steps involved in Model Building
 
 Setting up features and target
@@ -55,7 +56,7 @@ Fit all the models on training data
 Get mean of cross-validation on the training set for all the models for negative root mean square error
 Pick the model with the best cross-validation score
 Fit the best model on the training set and get
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Testing the Model with the best score on the test set**
 
 In the above scores, XGBClassifier appears to be the model with the best scoring on negative root mean square error. Let's test this model on a test set and evaluate it with different parameters. 
